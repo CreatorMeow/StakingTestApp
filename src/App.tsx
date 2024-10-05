@@ -6,7 +6,7 @@ import { TonConnectUIProvider } from '@tonconnect/ui-react';
 
 function App() {
   return (
-    <TonConnectUIProvider manifestUrl="https://serene-trifle-9b0ad3.netlify.app/manifest.json">
+    <TonConnectUIProvider manifestUrl="https://67011e827e2741e0ce3fa269--serene-trifle-9b0ad3.netlify.app//manifest.json">
       <div className={styles.screen}>
         <TopBar></TopBar>
         <Tabs></Tabs>
