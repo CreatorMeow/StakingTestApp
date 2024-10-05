@@ -7,7 +7,6 @@ import Overview from './Overview/Overview';
 import Subtitle from '../Subtitle/Subtitle';
 import Details from './Details/Details';
 import Security from './Security/Security';
-import CommunityButton from './CommunityButton/CommunityButton';
 
 const Main = () => {
   const [value, setValue] = useState(5165.5);
@@ -52,7 +51,6 @@ const Main = () => {
         />
       </div>
       <Button />
-      <CommunityButton />
       <Description tsTON={Math.round((value / 4.81) * 100) / 100} />
       <Subtitle text="Overview" />
       <Overview />
