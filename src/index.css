@@ -1,0 +1,23 @@
+:root {
+  background-color: #161622;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media (min-width: 701px) {
+  :root{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  :root{
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+}
+
+body{
+  margin: 0;
+}

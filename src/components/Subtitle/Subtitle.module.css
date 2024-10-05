@@ -1,0 +1,11 @@
+.text{
+    color:#FFFFFF;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 18px;
+    word-wrap: break-word;
+    margin-top: 28px;
+    margin-bottom: 12px;
+}
